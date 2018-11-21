@@ -1,0 +1,7 @@
+<div>
+  <app-reminder
+    *ngFor="let reminder of reminders"
+    [reminder]="reminder"
+    (done)="done.emit($event)"
+  ></app-reminder>
+</div>

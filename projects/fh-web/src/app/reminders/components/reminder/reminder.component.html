@@ -1,0 +1,6 @@
+<div class="reminder">
+  <button class="reminder__btn" type="button" (click)="done.emit(reminder)">
+    Done
+  </button>
+  <span [class.done]="reminder.done">{{ reminder.description }}</span>
+</div>

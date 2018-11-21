@@ -1,0 +1,16 @@
+<h3>Dashboard</h3>
+
+<div class="parent-wrap">
+  <p>Hello, my name is {{ person.name }} and I'm {{ person.age }} years old.</p>
+  <button type="button" (click)="changeMutable()">
+    Reset mutable name from dashboard
+  </button>
+  <button type="button" (click)="changeImmutable()">
+    Reset immutable name from dashboard
+  </button>
+
+  <button type="button" (click)="onClick()">Random Click</button>
+  <div class="child-wrap">
+    <app-name-editor [person]="person" (reset)="onReset()"></app-name-editor>
+  </div>
+</div>

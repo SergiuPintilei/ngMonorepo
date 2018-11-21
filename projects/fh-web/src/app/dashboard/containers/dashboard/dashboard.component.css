@@ -1,0 +1,10 @@
+.parent-wrap {
+  border: 5px dashed green;
+  padding: 10px;
+}
+
+.child-wrap {
+  border: 5px dashed blue;
+  padding: 10px;
+  margin-top: 20px;
+}

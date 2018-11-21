@@ -1,0 +1,32 @@
+<lib-fh-header title="fhWeb">
+  <nav>
+    <ul class="nav__links">
+      <li class="nav__link">
+        <a
+          class="nav__anchor"
+          [routerLink]="['/home']"
+          routerLinkActive="router-link-active"
+          >Home</a
+        >
+      </li>
+      <li class="nav__link">
+        <a
+          class="nav__anchor"
+          [routerLink]="['/dashboard']"
+          routerLinkActive="router-link-active"
+          >Dashboard</a
+        >
+      </li>
+      <li class="nav__link">
+        <a
+          class="nav__anchor"
+          [routerLink]="['/reminders']"
+          routerLinkActive="router-link-active"
+          >Reminders</a
+        >
+      </li>
+    </ul>
+  </nav>
+</lib-fh-header>
+
+<main><router-outlet></router-outlet></main>

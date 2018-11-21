@@ -1,0 +1,20 @@
+.done {
+  text-decoration: line-through;
+}
+
+.reminder {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.reminder__btn {
+  margin-right: 10px;
+  color: white;
+  background-color: #00b4c9;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  outline: none;
+  cursor: pointer;
+}

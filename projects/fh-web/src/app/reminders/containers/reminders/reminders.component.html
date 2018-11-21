@@ -1,0 +1,10 @@
+<div>
+  <h2>Reminders</h2>
+
+  <app-reminder-form (add)="handleAdd($event)"></app-reminder-form>
+
+  <app-reminder-list
+    [reminders]="reminders$ | async"
+    (done)="handleDone($event)"
+  ></app-reminder-list>
+</div>
